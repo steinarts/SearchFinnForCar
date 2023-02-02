@@ -9,11 +9,19 @@ using System.Timers;
 using Timer = System.Timers.Timer;
 using System.Runtime.InteropServices;
 using System.Web.UI;
+using System.Security.Policy;
+using System.Runtime.InteropServices.ComTypes;
+using System.Runtime.Remoting.Messaging;
+using System.Text;
+
 
 namespace CallPythonSearch
 {
-    internal class Program
+
+    internal class Program : ProgramBase
     {
+
+
 
         static void Main(string[] args)
         {
@@ -36,11 +44,12 @@ namespace CallPythonSearch
             var outputValues = ParseJsonResponse(response);
 
             //var NewCarData = ConvertDataToJson(GetThisCar(outputValues, carId));
-            //WriteValuesToJson("C:\\projects\\repos\\Python\\cars.json", carId, GetThisCar(outputValues, carId));
+            //WriteValuesToJson("C:\\projects\\repos\\Python\\App_Data\\cars.json", carId, GetThisCar(outputValues, carId));
+
 
             WriteValuesToJson("C:\\projects\\repos\\SearchFinnForCars\\cars.json", GetThisCar(outputValues, carId));
 
-            //WriteValuesToJson("~/cars.json", GetThisCar(outputValues, carId));
+            //WriteValuesToJsonWebReq("http://localhost:8080/App_Data/cars.json", GetThisCar(outputValues, carId));
 
             // Wait for 1 hour before calling the task again
             //await Task.Delay(3600);
@@ -75,9 +84,8 @@ namespace CallPythonSearch
 
         }
 
-        private static void WriteValuesToJson(string fileName, Car thisCar)
+        private static void WriteValuesToJsonWebReq(string urlFileName, Car thisCar)
         {
-
             string json;
             var settings = new JsonSerializerSettings
             {
@@ -86,14 +94,81 @@ namespace CallPythonSearch
 
             var newJson = JsonConvert.SerializeObject(thisCar, Formatting.Indented, settings);
 
-            if (File.Exists(fileName))
+            try
             {
-                json = System.IO.File.ReadAllText(fileName);
-                json = json.Insert(json.LastIndexOf("]"), "," + newJson);
-                System.IO.File.WriteAllText(fileName, json);
+
+                json = ReadJsonFileWebReq(urlFileName);
+                if (json.Length == 0)
+                {
+                    json = "[" + newJson + "]";
+                }
+                else
+                    json = json.Insert(json.LastIndexOf("]"), "," + newJson);
+
+                var ret = WriteJsonFileWebReq(urlFileName, json);
+
             }
-            else
-                System.IO.File.WriteAllText(fileName, "[" + newJson + "]");
+            catch (WebException ex)
+            {
+                Console.WriteLine("An error occurred while writing to the file: " + ex.Message);
+            }
+
+
+        }
+
+        private static void WriteValuesToJson(string urlFileName, Car thisCar)
+        {
+
+            string json;
+            var settings = new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented
+            };
+
+
+            var newJson = JsonConvert.SerializeObject(thisCar, Formatting.Indented, settings);
+            try
+            {
+
+                json = System.IO.File.ReadAllText(urlFileName);
+                json = json.Insert(json.LastIndexOf("]"), "," + newJson);
+                //System.IO.File.WriteAllText(urlFileName, json);
+                // Write the JSON string to a file
+                System.IO.File.WriteAllText(urlFileName, json);
+
+
+
+                //json = ReadJsonFileWebReq(urlFileName);
+                //if (json.Length == 0)
+                //{
+                //    json = "[" + newJson + "]";
+                //}
+                //else
+                //    json = json.Insert(json.LastIndexOf("]"), "," + newJson);
+
+                //var ret = WriteJsonFileWebReq(urlFileName, json);
+
+                //**************************************************************
+                //WebClient client = new WebClient();
+                //client.Headers.Add("Content-Type", "application/json");
+
+                //if (CheckIfUrlExists(urlFileName))
+                //{
+                //    //json = System.IO.File.ReadAllText(fileName);
+                //    json = client.DownloadString(urlFileName);
+                //    json = json.Insert(json.LastIndexOf("]"), "," + newJson);
+                //    //System.IO.File.WriteAllText(urlFileName, json);
+                //    client.UploadString(urlFileName, "POST", json);
+                //}
+                //else
+                //    client.UploadString(urlFileName, "POST", "[" + newJson + "]");
+
+            }
+            catch (WebException ex)
+            {
+                Console.WriteLine("An error occurred while writing to the file: " + ex.Message);
+            }
+            //System.IO.File.WriteAllText(urlFileName, "[" + newJson + "]");
 
 
             //string json;
@@ -102,11 +177,11 @@ namespace CallPythonSearch
             //    Formatting = Formatting.Indented
             //};
 
-            //json = JsonConvert.SerializeObject(thisCar, Formatting.Indented,settings);
+            //json = JsonConvert.SerializeObject(thisCar, Formatting.Indented, settings);
 
 
 
-            //// Write the JSON string to a file
+            // Write the JSON string to a file
             //File.AppendAllText(fileName, json);
 
         }
@@ -123,20 +198,6 @@ namespace CallPythonSearch
             var responseObject = serializer.DeserializeObject(responseString);
 
             return responseObject;
-        }
-
-        class Car
-        {
-            public string CarId { get; set; }
-            public int HigestPrice { get; set; }
-            public int LowestPrice { get; set; }
-            public int MeanValue { get; set; }
-            public int MiddelValue { get; set; }
-            
-            public int NoOfPoints { get; set; }
-
-            public string DateTime { get; set; }
-
         }
 
     }
