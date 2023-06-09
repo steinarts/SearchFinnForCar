@@ -13,7 +13,8 @@ using System.Security.Policy;
 using System.Runtime.InteropServices.ComTypes;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
-
+using System.Web.Hosting;
+using System.Web;
 
 namespace CallPythonSearch
 {
@@ -33,7 +34,26 @@ namespace CallPythonSearch
         }
         public static void OnEventExecution(Object sender, ElapsedEventArgs eventArgs)
         {
-            var carId = "1.749.2000264";
+            //var carId = "1.749.2000264";
+            //
+            string[] carIds = { "1.749.2000264", "1.749.8308", "1.749.2000557", "1.801.2000527", "1.801.2000556" };
+
+            //i4 - model-1.749.8308, i4M50 -model-1.749.2000557
+            foreach (var carId in carIds)
+            {
+                SearchCar(carId, carId + ".json");
+            }
+
+
+            // Wait for 1 hour before calling the task again
+            //await Task.Delay(3600);
+
+            //// Call the task again
+            //await ExecuteCode();
+        }
+
+        private static void SearchCar(string carId,string filename)
+        {
             var url = "http://localhost:5000/search_finn_for_car/" + carId;
 
             var request = WebRequest.Create(url);
@@ -43,19 +63,7 @@ namespace CallPythonSearch
             // Parse the JSON response to get the output values
             var outputValues = ParseJsonResponse(response);
 
-            //var NewCarData = ConvertDataToJson(GetThisCar(outputValues, carId));
-            //WriteValuesToJson("C:\\projects\\repos\\Python\\App_Data\\cars.json", carId, GetThisCar(outputValues, carId));
-
-
-            WriteValuesToJson("C:\\projects\\repos\\SearchFinnForCars\\cars.json", GetThisCar(outputValues, carId));
-
-            //WriteValuesToJsonWebReq("http://localhost:8080/App_Data/cars.json", GetThisCar(outputValues, carId));
-
-            // Wait for 1 hour before calling the task again
-            //await Task.Delay(3600);
-
-            //// Call the task again
-            //await ExecuteCode();
+            WriteValuesToJson("C:\\projects\\repos\\SearchFinnForCars\\" + filename, GetThisCar(outputValues, carId));
         }
 
         private static Car GetThisCar(object outputValues, string carId)
@@ -130,8 +138,13 @@ namespace CallPythonSearch
             try
             {
 
+
                 json = System.IO.File.ReadAllText(urlFileName);
-                json = json.Insert(json.LastIndexOf("]"), "," + newJson);
+                if (!string.IsNullOrEmpty(json))
+                    json = json.Insert(json.LastIndexOf("]"), "," + newJson);
+                else
+                    json = "[" + newJson + "]";
+
                 //System.IO.File.WriteAllText(urlFileName, json);
                 // Write the JSON string to a file
                 System.IO.File.WriteAllText(urlFileName, json);
@@ -184,7 +197,7 @@ namespace CallPythonSearch
             // Write the JSON string to a file
             //File.AppendAllText(fileName, json);
 
-        }
+         }
 
         private static object ParseJsonResponse(WebResponse response)
         {

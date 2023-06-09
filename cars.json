@@ -406,4 +406,508 @@
   "MiddelValue": 219000,
   "NoOfPoints": 905,
   "DateTime": "2023-02-01 22:53:04"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 80009,
+  "MeanValue": 224559,
+  "MiddelValue": 219000,
+  "NoOfPoints": 907,
+  "DateTime": "2023-02-02 20:42:20"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 80009,
+  "MeanValue": 225492,
+  "MiddelValue": 219147,
+  "NoOfPoints": 901,
+  "DateTime": "2023-02-03 23:23:43"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84147,
+  "MeanValue": 226166,
+  "MiddelValue": 219900,
+  "NoOfPoints": 902,
+  "DateTime": "2023-02-04 23:26:19"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84147,
+  "MeanValue": 225303,
+  "MiddelValue": 219523,
+  "NoOfPoints": 908,
+  "DateTime": "2023-02-05 21:19:14"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84147,
+  "MeanValue": 225672,
+  "MiddelValue": 219147,
+  "NoOfPoints": 903,
+  "DateTime": "2023-02-06 20:15:58"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84147,
+  "MeanValue": 224865,
+  "MiddelValue": 219000,
+  "NoOfPoints": 912,
+  "DateTime": "2023-02-07 23:04:46"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 61147,
+  "MeanValue": 223151,
+  "MiddelValue": 219000,
+  "NoOfPoints": 930,
+  "DateTime": "2023-02-14 16:19:44"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 61147,
+  "MeanValue": 222962,
+  "MiddelValue": 219000,
+  "NoOfPoints": 928,
+  "DateTime": "2023-02-14 19:33:11"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 61147,
+  "MeanValue": 222940,
+  "MiddelValue": 219000,
+  "NoOfPoints": 926,
+  "DateTime": "2023-02-14 21:57:14"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 62147,
+  "MeanValue": 222645,
+  "MiddelValue": 219000,
+  "NoOfPoints": 925,
+  "DateTime": "2023-02-15 09:33:40"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 85147,
+  "MeanValue": 223743,
+  "MiddelValue": 219000,
+  "NoOfPoints": 947,
+  "DateTime": "2023-02-16 19:34:00"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 92861,
+  "MeanValue": 224484,
+  "MiddelValue": 219000,
+  "NoOfPoints": 936,
+  "DateTime": "2023-02-18 23:46:07"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 92861,
+  "MeanValue": 223201,
+  "MiddelValue": 219000,
+  "NoOfPoints": 946,
+  "DateTime": "2023-02-19 17:56:42"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 80000,
+  "MeanValue": 220570,
+  "MiddelValue": 212286,
+  "NoOfPoints": 942,
+  "DateTime": "2023-02-20 22:47:43"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 89961,
+  "MeanValue": 219992,
+  "MiddelValue": 210000,
+  "NoOfPoints": 956,
+  "DateTime": "2023-02-22 19:05:26"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 219717,
+  "MiddelValue": 209923,
+  "NoOfPoints": 968,
+  "DateTime": "2023-02-23 10:07:33"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 220403,
+  "MiddelValue": 214000,
+  "NoOfPoints": 971,
+  "DateTime": "2023-02-23 23:05:52"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 220756,
+  "MiddelValue": 214000,
+  "NoOfPoints": 959,
+  "DateTime": "2023-02-25 14:18:03"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 220863,
+  "MiddelValue": 212286,
+  "NoOfPoints": 968,
+  "DateTime": "2023-02-25 20:59:56"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 221170,
+  "MiddelValue": 214147,
+  "NoOfPoints": 967,
+  "DateTime": "2023-02-26 21:38:24"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 221829,
+  "MiddelValue": 216504,
+  "NoOfPoints": 960,
+  "DateTime": "2023-02-28 13:04:37"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 79961,
+  "MeanValue": 221704,
+  "MiddelValue": 218450,
+  "NoOfPoints": 970,
+  "DateTime": "2023-03-03 13:10:54"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 220875,
+  "MiddelValue": 216009,
+  "NoOfPoints": 971,
+  "DateTime": "2023-03-05 10:52:57"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 219514,
+  "MiddelValue": 209900,
+  "NoOfPoints": 969,
+  "DateTime": "2023-03-06 22:08:13"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84999,
+  "MeanValue": 219292,
+  "MiddelValue": 209900,
+  "NoOfPoints": 974,
+  "DateTime": "2023-03-09 13:38:10"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84147,
+  "MeanValue": 216298,
+  "MiddelValue": 209000,
+  "NoOfPoints": 994,
+  "DateTime": "2023-03-15 13:34:57"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84961,
+  "MeanValue": 217562,
+  "MiddelValue": 214147,
+  "NoOfPoints": 981,
+  "DateTime": "2023-03-16 11:19:47"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84961,
+  "MeanValue": 216448,
+  "MiddelValue": 209147,
+  "NoOfPoints": 972,
+  "DateTime": "2023-03-17 23:29:07"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84961,
+  "MeanValue": 216399,
+  "MiddelValue": 209900,
+  "NoOfPoints": 969,
+  "DateTime": "2023-03-18 21:54:55"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84961,
+  "MeanValue": 216623,
+  "MiddelValue": 209900,
+  "NoOfPoints": 965,
+  "DateTime": "2023-03-19 22:00:49"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 84961,
+  "MeanValue": 216950,
+  "MiddelValue": 214147,
+  "NoOfPoints": 971,
+  "DateTime": "2023-03-20 23:58:25"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 429800,
+  "LowestPrice": 89500,
+  "MeanValue": 215996,
+  "MiddelValue": 214147,
+  "NoOfPoints": 968,
+  "DateTime": "2023-03-23 12:39:56"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 89500,
+  "MeanValue": 217190,
+  "MiddelValue": 219000,
+  "NoOfPoints": 956,
+  "DateTime": "2023-03-25 09:24:30"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 86000,
+  "MeanValue": 217555,
+  "MiddelValue": 219000,
+  "NoOfPoints": 957,
+  "DateTime": "2023-03-26 10:00:45"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 53147,
+  "MeanValue": 215671,
+  "MiddelValue": 214147,
+  "NoOfPoints": 949,
+  "DateTime": "2023-03-30 12:57:22"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 53147,
+  "MeanValue": 215063,
+  "MiddelValue": 213147,
+  "NoOfPoints": 933,
+  "DateTime": "2023-04-01 19:44:35"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 53147,
+  "MeanValue": 215002,
+  "MiddelValue": 213147,
+  "NoOfPoints": 943,
+  "DateTime": "2023-04-03 12:39:57"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 216582,
+  "MiddelValue": 218900,
+  "NoOfPoints": 933,
+  "DateTime": "2023-04-05 23:20:26"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 216207,
+  "MiddelValue": 215938,
+  "NoOfPoints": 926,
+  "DateTime": "2023-04-09 17:16:51"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 215884,
+  "MiddelValue": 216078,
+  "NoOfPoints": 932,
+  "DateTime": "2023-04-10 15:16:10"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 216420,
+  "MiddelValue": 218147,
+  "NoOfPoints": 945,
+  "DateTime": "2023-04-11 16:15:19"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 73000,
+  "MeanValue": 215691,
+  "MiddelValue": 215868,
+  "NoOfPoints": 951,
+  "DateTime": "2023-04-12 16:11:03"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 218267,
+  "MiddelValue": 219000,
+  "NoOfPoints": 926,
+  "DateTime": "2023-04-14 16:12:07"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 218211,
+  "MiddelValue": 219000,
+  "NoOfPoints": 926,
+  "DateTime": "2023-04-17 22:09:44"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 62961,
+  "MeanValue": 217892,
+  "MiddelValue": 219000,
+  "NoOfPoints": 914,
+  "DateTime": "2023-04-19 15:58:47"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 218977,
+  "MiddelValue": 219000,
+  "NoOfPoints": 935,
+  "DateTime": "2023-04-23 22:08:25"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 219286,
+  "MiddelValue": 219147,
+  "NoOfPoints": 936,
+  "DateTime": "2023-04-24 22:27:14"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 218636,
+  "MiddelValue": 219000,
+  "NoOfPoints": 946,
+  "DateTime": "2023-04-27 13:51:52"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 217978,
+  "MiddelValue": 219000,
+  "NoOfPoints": 949,
+  "DateTime": "2023-04-30 21:22:58"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 218157,
+  "MiddelValue": 219000,
+  "NoOfPoints": 944,
+  "DateTime": "2023-05-02 21:33:43"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 217965,
+  "MiddelValue": 219000,
+  "NoOfPoints": 957,
+  "DateTime": "2023-05-04 21:56:04"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 217636,
+  "MiddelValue": 219000,
+  "NoOfPoints": 957,
+  "DateTime": "2023-05-04 21:57:22"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 217525,
+  "MiddelValue": 219000,
+  "NoOfPoints": 952,
+  "DateTime": "2023-05-05 10:01:34"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 217623,
+  "MiddelValue": 219000,
+  "NoOfPoints": 954,
+  "DateTime": "2023-05-07 19:36:29"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 216929,
+  "MiddelValue": 219000,
+  "NoOfPoints": 949,
+  "DateTime": "2023-05-08 20:35:53"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 87961,
+  "MeanValue": 217147,
+  "MiddelValue": 219000,
+  "NoOfPoints": 944,
+  "DateTime": "2023-05-10 11:19:56"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 216828,
+  "MiddelValue": 219000,
+  "NoOfPoints": 933,
+  "DateTime": "2023-05-12 11:04:03"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 215931,
+  "MiddelValue": 219000,
+  "NoOfPoints": 919,
+  "DateTime": "2023-05-15 10:32:23"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 214562,
+  "MiddelValue": 218900,
+  "NoOfPoints": 919,
+  "DateTime": "2023-05-17 00:13:03"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 215848,
+  "MiddelValue": 219000,
+  "NoOfPoints": 919,
+  "DateTime": "2023-05-18 13:48:18"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 74960,
+  "MeanValue": 215225,
+  "MiddelValue": 219000,
+  "NoOfPoints": 918,
+  "DateTime": "2023-05-19 10:02:42"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 85961,
+  "MeanValue": 214273,
+  "MiddelValue": 218900,
+  "NoOfPoints": 903,
+  "DateTime": "2023-05-21 18:38:36"
+},{
+  "CarId": "1.749.2000264",
+  "HigestPrice": 398000,
+  "LowestPrice": 75961,
+  "MeanValue": 213007,
+  "MiddelValue": 214950,
+  "NoOfPoints": 906,
+  "DateTime": "2023-05-22 11:30:35"
 }]

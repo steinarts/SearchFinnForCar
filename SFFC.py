@@ -22,7 +22,7 @@ class KeyContent:
 
         
         self.askingprice = int(askingprice.replace(u' ', u''))  if self.skip == False else 0
-        self.skip = True if self.askingprice < 10000 else False        
+        self.skip = True if self.askingprice < 25000 else False        
 
 
 # Create a KeyContent instance and pass the values from find_content_keys
